@@ -46,8 +46,8 @@ def get_program_parameters():
 def main():
     colors = vtkNamedColors()
 
-    #jpegfile = get_program_parameters()
-    jpegfile = "./res/8k_earth_daymap.jpg"
+    jpegfile = get_program_parameters()
+    #jpegfile = "./res/8k_earth_daymap.jpg"
     # Create a render window
     ren = vtkRenderer()
     renWin = vtkRenderWindow()
